@@ -11,59 +11,7 @@ body{
     background-color: #3A458D;
 }
 
-button1{
-    background-color: #15267E;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-}
-
-button2{
-    background-color: #15267E;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-}
-
-button3{
-    background-color: #15267E;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-}
-
-button4{
-    background-color: #15267E;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-}
-
-button5{
+button{
     background-color: #15267E;
     border: none;
     color: white;
@@ -120,15 +68,20 @@ figure > button{
         font-size: 16px;
     }
     article{
-        width: 100vw;
+        width: 80vw;
         padding: 20px;
     }
     h1{
         font-size: 180%;
     }
     footer > p{
-        width: 100vw;
+        width: 80vw;
         padding-left: 20px;
+    }
+    header > button {
+        font-size: 15px;
+        margin: 4px;
+        padding: 4px;
     }
     figure{
         width: 100vw;
