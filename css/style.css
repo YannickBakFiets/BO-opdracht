@@ -35,6 +35,7 @@ header{
 img{
     width: 100%;
     height: 45vw;
+    border-bottom: 5px solid orange;
 }
 
 figcaption{
@@ -42,6 +43,18 @@ figcaption{
     font-size: 80%;
     font-style: italic;
     font-weight: 400;
+}
+
+h1{
+    color: white;
+    padding: 5px;
+    margin: 5px;
+}
+
+h4{
+    color: white;
+    padding: 5px;
+    margin: 5px;
 }
 
 figure > button{
