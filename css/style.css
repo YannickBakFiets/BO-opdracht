@@ -45,6 +45,18 @@ figcaption{
     font-weight: 400;
 }
 
+h2{
+    color: white;
+    padding: 5px;
+    margin: 5px;    
+}
+
+h5{
+    color: white;
+    padding: 5px;
+    margin: 5px;    
+}
+
 h1{
     color: white;
     padding: 5px;
