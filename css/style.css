@@ -30,6 +30,7 @@ header{
     height: 60px;
     display: flex;
     align-items:center;
+    border-bottom: 5px solid orange;
 }
 
 #divall{
@@ -41,11 +42,37 @@ header{
 #div1 {
     width: 500px;
     display: inline-block;
+    margin: 5px;
 }
 
 #div2 {
     width: 900px;
     display: inline-block;
+    margin: 5px;
+}
+
+#div3 {
+    width: 1000px;
+    display: inline-block;
+    margin: 5px;
+}
+
+#div4 {
+    width: 714px;
+    display: inline-block;
+    margin: 5px;
+}
+
+#div5{
+    width: 780px;
+    display: inline-block;
+    margin: 5px;
+}
+
+#div6{
+    width: 700px;
+    display: inline-block;
+    margin: 5px;
 }
 
 img{
@@ -73,8 +100,6 @@ article > img{
 
 article{
     color: white;
-    padding: 5px;
-    margin: 5px;
     font-size: medium; 
 }
 
@@ -102,6 +127,46 @@ h4{
 
 figure > button{
     padding: 10%;
+}
+
+article3{
+    margin: 5px auto;
+    display: inline-block;
+    display: flex;
+}
+
+article3 > img{
+    width: 50%;
+    height: auto;
+    display: inline-block;
+    display: flex;
+    margin: 0 auto;
+    border-top: 5px solid orange;
+}
+
+article3 > img:hover{
+    transform: none;
+}
+
+.goog-logo-link {
+    display:none !important;
+ }
+ 
+ .goog-te-gadget {
+    color: transparent !important;
+ }
+ 
+ .goog-te-gadget .goog-te-combo {
+    color: blue !important;
+ }
+
+footer{
+    background-color: white;
+    border-top: 5px solid orange;
+}
+
+footer > h2{
+    color: black;
 }
 
 @media screen and (max-width:1000px) {
