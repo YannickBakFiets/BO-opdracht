@@ -1,0 +1,38 @@
+*{
+    background-color: #3A458D;
+    color: white;
+}
+
+#container{
+    color: white;
+    background-color: #3A458D;
+    width: 900px;
+    height: 600px;
+    margin: 50px auto auto auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    border: inset 2px gray;
+}
+
+#myInteraction{
+    padding: 10px;
+}
+
+#myTitle{
+    background-color: #FFB300;
+    padding: 20px;
+    width: 251px;
+}
+
+#myText{
+    padding: 20px;
+}
+
+#myInput{
+    width: 50px;
+}
+
+#myButton{
+    color: black;
+    background-color: #FFB300;
+}

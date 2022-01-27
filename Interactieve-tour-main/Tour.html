@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scheepvaartmuseum interactieve route</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <h1>Interactieve tour</h1>
+    <h2>Dit is een interactieve tour van de oostvleugel in het scheepsvaartmuseum. Voer een getal van 0 tot en met 22 in om door het museum heen te gaan.</h2>
+    <img src="img/plattegrond.jpg" alt="plattegrond van het museum">
+    <div id="container">
+        <img id="myImage" src="img/0.jpg" height="600px" alt="foto museum">
+        <div id="myInteraction">
+            <div id="myTitle">Het gebouw</div>
+            <input type="text" id="myInput" autocomplete="off">
+            <input type="button" id="myButton" value="voer in" onclick="getInput()">
+            <div id="myText">Het werd in 1656 gebouwd als het ‘zeemagazijn’ van de Admiraliteit van Amsterdam, oftewel: een pakhuis vol scheepsmaterialen, maar in 1972 wordt het zeemagazijn een museum.</div>
+        </div>
+    </div>
+    <script src="script2.js"></script>
+</body>
+</html>
